@@ -133,12 +133,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3721,
+                  "duration": 4077,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T07:56:14.974Z",
+                  "startTime": "2026-10-18T10:23:04.232Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -167,12 +167,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1120,
+                  "duration": 1289,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T07:56:18.917Z",
+                  "startTime": "2026-10-18T10:23:08.871Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -219,7 +219,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 213,
+                  "duration": 162,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -227,7 +227,7 @@
                   "steps": [
                     {
                       "title": "Login ผ่านหน้าเว็บไซต์จริง",
-                      "duration": 1
+                      "duration": 0
                     },
                     {
                       "title": "สร้าง Inventory Stub",
@@ -238,7 +238,7 @@
                       "duration": 0
                     }
                   ],
-                  "startTime": "2026-10-16T07:56:20.061Z",
+                  "startTime": "2026-10-18T10:23:10.185Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -295,7 +295,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1,
+                  "duration": 3,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -318,7 +318,7 @@
                       "duration": 0
                     }
                   ],
-                  "startTime": "2026-10-16T07:56:20.291Z",
+                  "startTime": "2026-10-18T10:23:10.367Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -375,7 +375,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 201,
+                  "duration": 164,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -383,7 +383,7 @@
                   "steps": [
                     {
                       "title": "Login และตรวจสอบ Inventory",
-                      "duration": 0
+                      "duration": 1
                     },
                     {
                       "title": "เพิ่มสินค้าสองรายการ",
@@ -403,10 +403,10 @@
                     },
                     {
                       "title": "ตรวจสอบ Order Complete",
-                      "duration": 0
+                      "duration": 1
                     }
                   ],
-                  "startTime": "2026-10-16T07:56:20.312Z",
+                  "startTime": "2026-10-18T10:23:10.396Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -463,7 +463,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 197,
+                  "duration": 155,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -483,14 +483,14 @@
                     },
                     {
                       "title": "ตรวจสอบ Postal Code is required",
-                      "duration": 1
+                      "duration": 0
                     },
                     {
                       "title": "แก้ไขข้อมูลและสั่งซื้อสำเร็จ",
-                      "duration": 0
+                      "duration": 1
                     }
                   ],
-                  "startTime": "2026-10-16T07:56:20.526Z",
+                  "startTime": "2026-10-18T10:23:10.575Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -554,7 +554,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 222,
+                      "duration": 255,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -570,10 +570,10 @@
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 1
+                          "duration": 0
                         }
                       ],
-                      "startTime": "2026-10-16T07:56:20.738Z",
+                      "startTime": "2026-10-18T10:23:10.752Z",
                       "annotations": [
                         {
                           "type": "description",
@@ -622,7 +622,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 180,
+                      "duration": 167,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -641,7 +641,7 @@
                           "duration": 0
                         }
                       ],
-                      "startTime": "2026-10-16T07:56:20.969Z",
+                      "startTime": "2026-10-18T10:23:11.020Z",
                       "annotations": [
                         {
                           "type": "description",
@@ -690,7 +690,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 215,
+                      "duration": 168,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -709,7 +709,7 @@
                           "duration": 0
                         }
                       ],
-                      "startTime": "2026-10-16T07:56:21.160Z",
+                      "startTime": "2026-10-18T10:23:11.199Z",
                       "annotations": [
                         {
                           "type": "description",
@@ -768,7 +768,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 248,
+                  "duration": 156,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -791,7 +791,7 @@
                       "duration": 0
                     }
                   ],
-                  "startTime": "2026-10-16T07:56:21.392Z",
+                  "startTime": "2026-10-18T10:23:11.382Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -819,8 +819,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-16T07:56:14.417Z",
-    "duration": 7333.823,
+    "startTime": "2026-10-18T10:23:03.701Z",
+    "duration": 7968.819,
     "expected": 10,
     "skipped": 0,
     "unexpected": 0,
