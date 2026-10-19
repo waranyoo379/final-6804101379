@@ -7,15 +7,34 @@ test('UT-02: product button state Add to cart -> Remove -> Add to cart', {
   }
 }, async ({ page }) => {
   await test.step('Login เข้าสู่ระบบ', async () => {
-    // Login และตรวจสอบหน้า Inventory
+    await page.goto('/');
+    await page.locator('#user-name').fill('standard_user');
+    await page.locator('#password').fill('secret_sauce');
+    await page.locator('#login-button').click();
+    await expect(page).toHaveURL(/.*inventory\.html/);
   });
+
+  const backpackBtn = page.locator('#add-to-cart-sauce-labs-backpack');
+  const removeBackpackBtn = page.locator('#remove-sauce-labs-backpack');
+  const cartBadge = page.locator('.shopping_cart_badge');
+
   await test.step('ตรวจสอบปุ่มก่อนเพิ่มสินค้า', async () => {
-    // ตรวจสอบปุ่ม Add to cart ของ Backpack
+    await expect(backpackBtn).toBeVisible();
+    await expect(backpackBtn).toHaveText('Add to cart');
+    await expect(cartBadge).toHaveCount(0);
   });
+
   await test.step('เพิ่มสินค้าเข้า Cart', async () => {
-    // เพิ่มสินค้าและตรวจสอบปุ่ม Remove และ Cart Badge = 1
+    await backpackBtn.click();
+    await expect(removeBackpackBtn).toBeVisible();
+    await expect(removeBackpackBtn).toHaveText('Remove');
+    await expect(cartBadge).toHaveText('1');
   });
+
   await test.step('ลบสินค้าออกจาก Cart', async () => {
-    // ลบสินค้า ตรวจสอบปุ่ม Add to cart และ Cart Badge หายไป
+    await removeBackpackBtn.click();
+    await expect(backpackBtn).toBeVisible();
+    await expect(backpackBtn).toHaveText('Add to cart');
+    await expect(cartBadge).toHaveCount(0);
   });
 });

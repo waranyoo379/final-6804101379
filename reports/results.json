@@ -133,12 +133,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4077,
+                  "duration": 4401,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-18T10:23:04.232Z",
+                  "startTime": "2026-10-19T04:57:47.656Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -167,12 +167,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1289,
+                  "duration": 1884,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-18T10:23:08.871Z",
+                  "startTime": "2026-10-19T04:57:52.518Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -219,7 +219,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 162,
+                  "duration": 953,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -227,18 +227,18 @@
                   "steps": [
                     {
                       "title": "Login ผ่านหน้าเว็บไซต์จริง",
-                      "duration": 0
+                      "duration": 607
                     },
                     {
                       "title": "สร้าง Inventory Stub",
-                      "duration": 0
+                      "duration": 50
                     },
                     {
                       "title": "ตรวจสอบผลจาก Stub",
-                      "duration": 0
+                      "duration": 41
                     }
                   ],
-                  "startTime": "2026-10-18T10:23:10.185Z",
+                  "startTime": "2026-10-19T04:57:54.428Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -282,7 +282,7 @@
                   "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
                   "location": {
                     "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\integration\\IT-02.spec.ts",
-                    "line": 3,
+                    "line": 18,
                     "column": 5
                   }
                 }
@@ -295,7 +295,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3,
+                  "duration": 913,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -303,29 +303,29 @@
                   "steps": [
                     {
                       "title": "สร้าง Driver และเปิด Inventory",
-                      "duration": 0
+                      "duration": 513
                     },
                     {
                       "title": "ตรวจสอบ Inventory จริง",
-                      "duration": 0
+                      "duration": 11
                     },
                     {
                       "title": "เพิ่มสินค้า 2 รายการ",
-                      "duration": 0
+                      "duration": 141
                     },
                     {
                       "title": "ตรวจสอบสินค้าใน Cart",
-                      "duration": 0
+                      "duration": 108
                     }
                   ],
-                  "startTime": "2026-10-18T10:23:10.367Z",
+                  "startTime": "2026-10-19T04:57:55.404Z",
                   "annotations": [
                     {
                       "type": "description",
                       "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
                       "location": {
                         "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\integration\\IT-02.spec.ts",
-                        "line": 3,
+                        "line": 18,
                         "column": 5
                       }
                     }
@@ -338,7 +338,7 @@
           ],
           "id": "4fa6bfb55dc95b1f15b3-0a804e4898f3b2703bff",
           "file": "integration/IT-02.spec.ts",
-          "line": 3,
+          "line": 18,
           "column": 5
         }
       ]
@@ -375,7 +375,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 164,
+                  "duration": 1342,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -383,30 +383,30 @@
                   "steps": [
                     {
                       "title": "Login และตรวจสอบ Inventory",
-                      "duration": 1
+                      "duration": 493
                     },
                     {
                       "title": "เพิ่มสินค้าสองรายการ",
-                      "duration": 0
+                      "duration": 156
                     },
                     {
                       "title": "ตรวจสอบ Cart",
-                      "duration": 0
+                      "duration": 105
                     },
                     {
                       "title": "กรอก Checkout Information",
-                      "duration": 0
+                      "duration": 163
                     },
                     {
                       "title": "ตรวจสอบ Overview และสั่งซื้อ",
-                      "duration": 0
+                      "duration": 103
                     },
                     {
                       "title": "ตรวจสอบ Order Complete",
-                      "duration": 1
+                      "duration": 44
                     }
                   ],
-                  "startTime": "2026-10-18T10:23:10.396Z",
+                  "startTime": "2026-10-19T04:57:56.341Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -463,7 +463,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 155,
+                  "duration": 1466,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -471,26 +471,26 @@
                   "steps": [
                     {
                       "title": "Login เพิ่มสินค้า และเปิด Checkout",
-                      "duration": 0
+                      "duration": 773
                     },
                     {
                       "title": "ตรวจสอบ First Name is required",
-                      "duration": 0
+                      "duration": 82
                     },
                     {
                       "title": "ตรวจสอบ Last Name is required",
-                      "duration": 0
+                      "duration": 89
                     },
                     {
                       "title": "ตรวจสอบ Postal Code is required",
-                      "duration": 0
+                      "duration": 92
                     },
                     {
                       "title": "แก้ไขข้อมูลและสั่งซื้อสำเร็จ",
-                      "duration": 1
+                      "duration": 180
                     }
                   ],
-                  "startTime": "2026-10-18T10:23:10.575Z",
+                  "startTime": "2026-10-19T04:57:57.706Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -554,7 +554,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 255,
+                      "duration": 762,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -562,18 +562,18 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login",
-                          "duration": 0
+                          "duration": 331
                         },
                         {
                           "title": "ส่งฟอร์มโดยไม่กรอกข้อมูล",
-                          "duration": 0
+                          "duration": 73
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 32
                         }
                       ],
-                      "startTime": "2026-10-18T10:23:10.752Z",
+                      "startTime": "2026-10-19T04:57:59.195Z",
                       "annotations": [
                         {
                           "type": "description",
@@ -609,7 +609,7 @@
                       "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
                       "location": {
                         "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                        "line": 18,
+                        "line": 26,
                         "column": 7
                       }
                     }
@@ -622,7 +622,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 167,
+                      "duration": 736,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -630,25 +630,25 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login และกรอก Username",
-                          "duration": 0
+                          "duration": 380
                         },
                         {
                           "title": "กด Login โดยไม่กรอก Password",
-                          "duration": 0
+                          "duration": 66
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 35
                         }
                       ],
-                      "startTime": "2026-10-18T10:23:11.020Z",
+                      "startTime": "2026-10-19T04:57:59.973Z",
                       "annotations": [
                         {
                           "type": "description",
                           "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
                           "location": {
                             "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                            "line": 18,
+                            "line": 26,
                             "column": 7
                           }
                         }
@@ -661,7 +661,7 @@
               ],
               "id": "8c739bc89a6720d0c629-416b2ace0476596fcfd7",
               "file": "unit/UT-01.spec.ts",
-              "line": 18,
+              "line": 26,
               "column": 7
             },
             {
@@ -677,7 +677,7 @@
                       "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
                       "location": {
                         "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                        "line": 32,
+                        "line": 49,
                         "column": 7
                       }
                     }
@@ -690,7 +690,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 168,
+                      "duration": 772,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -698,25 +698,25 @@
                       "steps": [
                         {
                           "title": "เปิดหน้า Login และกรอกข้อมูลผิด",
-                          "duration": 0
+                          "duration": 407
                         },
                         {
                           "title": "กด Login",
-                          "duration": 0
+                          "duration": 70
                         },
                         {
                           "title": "ตรวจสอบ Error และ URL",
-                          "duration": 0
+                          "duration": 73
                         }
                       ],
-                      "startTime": "2026-10-18T10:23:11.199Z",
+                      "startTime": "2026-10-19T04:58:00.724Z",
                       "annotations": [
                         {
                           "type": "description",
                           "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
                           "location": {
                             "file": "C:\\waranyoo_6804101379\\final-6804101379\\final-exam\\tests\\unit\\UT-01.spec.ts",
-                            "line": 32,
+                            "line": 49,
                             "column": 7
                           }
                         }
@@ -729,7 +729,7 @@
               ],
               "id": "8c739bc89a6720d0c629-40c069adb5013c050578",
               "file": "unit/UT-01.spec.ts",
-              "line": 32,
+              "line": 49,
               "column": 7
             }
           ]
@@ -768,7 +768,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 156,
+                  "duration": 1004,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
@@ -776,22 +776,22 @@
                   "steps": [
                     {
                       "title": "Login เข้าสู่ระบบ",
-                      "duration": 0
+                      "duration": 546
                     },
                     {
                       "title": "ตรวจสอบปุ่มก่อนเพิ่มสินค้า",
-                      "duration": 0
+                      "duration": 44
                     },
                     {
                       "title": "เพิ่มสินค้าเข้า Cart",
-                      "duration": 0
+                      "duration": 69
                     },
                     {
                       "title": "ลบสินค้าออกจาก Cart",
-                      "duration": 0
+                      "duration": 76
                     }
                   ],
-                  "startTime": "2026-10-18T10:23:11.382Z",
+                  "startTime": "2026-10-19T04:58:01.513Z",
                   "annotations": [
                     {
                       "type": "description",
@@ -819,8 +819,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-18T10:23:03.701Z",
-    "duration": 7968.819,
+    "startTime": "2026-10-19T04:57:46.937Z",
+    "duration": 15749.432999999999,
     "expected": 10,
     "skipped": 0,
     "unexpected": 0,
